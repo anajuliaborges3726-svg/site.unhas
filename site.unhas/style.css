@@ -1,0 +1,388 @@
+body {
+    background-color: #111111;
+    color: #f2f2f2;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 55px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 20px 0;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom:  25px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding: 18px 0;
+}
+
+p {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+img {
+    width: 70%;
+    max-width: 650px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 30px;
+    border: 1px solid #777;
+    padding: 8px;
+    background-color: #eeeeee;
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+a {
+    color: #ffffff;
+    font-size: 20px;
+}
+.servico {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border-bottom: 1px solid #444;
+    color: #dddddd;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.servico:hover {
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+.botao {
+    display: block;
+    margin-top: 60px;
+    padding: 18px 45px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.botao:hover {
+    background-color: #ffffff;
+    color: #111111;
+    letter-spacing: 6px;
+}
+
+.instagram {
+    display: block;
+    width: fit-content;
+    margin-top: 35px;
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 8px;
+    transition: 0.4s;
+}
+
+.instagram:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    letter-spacing: 5px;
+}
+.manchete {
+    font-size: 14px;
+    letter-spacing: 8px;
+    color: #888888;
+    text-transform: uppercase;
+    margin: 35px 0;
+}
+.linha-editorial {
+    margin: 60px 0 20px;
+    padding: 15px 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #888888;
+}
+.descricao {
+    max-width: 600px;
+    margin: 15px auto;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+}
+.editorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 70px 0 40px;
+    text-align: left;
+}
+
+.editorial span {
+    font-size: 70px;
+    color: #555555;
+    font-weight: normal;
+}
+
+.editorial p {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #888888;
+}
+
+.editorial strong {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+
+.numero {
+    font-size: 100px;
+    color: #444444;
+    font-weight: normal;
+}
+
+.sobre-texto {
+    max-width: 550px;
+    text-align: left;
+}
+
+.sobre-texto h2 {
+    margin-top: 0;
+    border: none;
+    padding: 0;
+}
+
+.sobre-texto p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #aaaaaa;
+}
+.galeria {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 0;
+    border-bottom: 1px solid #444;
+}
+
+.galeria-titulo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.galeria-titulo span {
+    font-size: 80px;
+    color: #444444;
+}
+
+.galeria-titulo h2 {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+.galeria > p {
+    color: #999999;
+    font-size: 17px;
+}
+.fotos-galeria {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.foto-galeria {
+    width: 180px;
+    height: 230px;
+    object-fit: cover;
+    border: 1px solid #777;
+    padding: 5px;
+    background-color: #eeeeee;
+    transition: 0.4s;
+}
+
+.foto-galeria.lateral {
+    margin-top: 50px;
+}
+
+.foto-galeria.meio {
+    margin-top: 0;
+}
+
+.foto-galeria:hover {
+    transform: scale(1.03);
+}
+.incluso {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 18px;
+    border-bottom: 1px solid #444444;
+    color: #cccccc;
+    font-size: 15px;
+    letter-spacing: 4px;
+    transition: 0.3s;
+}
+
+.incluso:hover {
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+.rodape {
+    margin-top: 80px;
+    padding: 35px 20px;
+    border-top: 1px solid #444444;
+    text-align: center;
+}
+
+.rodape p {
+    margin: 0 0 15px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.rodape span {
+    color: #777777;
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+
+/* versão para celular*/
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+
+    h2 {
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+
+    .manchete {
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+
+    img {
+        width: 90%;
+        height: 350px;
+    }
+
+    .sobre {
+        flex-direction: column;
+        gap: 20px;
+        margin: 50px auto;
+        padding: 30px 0;
+    }
+
+    .numero {
+        font-size: 70px;
+    }
+
+    .sobre-texto {
+        text-align: center;
+    }
+
+    .galeria {
+        margin: 50px auto;
+        padding: 30px 0;
+    }
+
+    .galeria-titulo {
+        justify-content: center;
+    }
+
+    .fotos-galeria {
+        gap: 8px;
+    }
+
+    .foto-galeria {
+        width: 90px;
+        height: 130px;
+    }
+
+    .foto-galeria.lateral {
+        margin-top: 30px;
+    }
+
+    .foto-galeria.meio {
+        margin-top: 0;
+    }
+
+    .servico {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .incluso {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .botao {
+        padding: 16px 25px;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .instagram {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .rodape p {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .rodape span {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+}
